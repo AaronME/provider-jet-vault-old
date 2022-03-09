@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/crossplane/crossplane-runtime v0.15.1-0.20220106140106-428b7c390375
 	github.com/crossplane/crossplane-tools v0.0.0-20210916125540-071de511ae8e
-	github.com/crossplane/terrajet v0.4.0
+	github.com/crossplane/terrajet v0.4.0-rc.0.0.20220307083528-13683c29f768
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.7.0
 	github.com/pkg/errors v0.9.1
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6

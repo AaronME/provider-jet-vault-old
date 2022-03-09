@@ -46,6 +46,11 @@ type SecretParameters struct {
 	// Full path where the generic secret will be written.
 	// +kubebuilder:validation:Required
 	Path *string `json:"path" tf:"path,omitempty"`
+
+	// String that will be written as the secret data at the given path.
+	// +terrajet:crd:field:TFTag=-
+	// +kubebuilder:validation:Required
+	StringData *string `json:"stringdata" tf:"-"`
 }
 
 // SecretSpec defines the desired state of Secret
